@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+venv/
+
+# Vector DB data
+rag-service/chroma_db/
+
+# Environment variables
+.env
+rag-service/.env
+
+# Build output
+frontend/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite cache
+frontend/node_modules/.vite
+
+# Startup scripts (contains API keys)
+start.ps1
